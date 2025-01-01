@@ -1,0 +1,21 @@
+/* Override What's New styles for Starter Templates */
+.whats-new-rss-flyout {
+	font-family: "Figtree", sans-serif !important;
+
+	&.closed {
+		visibility: hidden;
+	}
+
+	.whats-new-rss-flyout-contents {
+		.whats-new-rss-falyout-inner-content {
+			.whats-new-rss-flyout-inner-content-item {
+				padding: 40px 24px !important;
+			}
+		}
+	}
+}
+
+.whats-new-rss-notification-badge {
+	top: -10px !important;
+	right: -8px !important;
+}

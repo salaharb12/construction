@@ -1,0 +1,54 @@
+v1.1.10 - 06-November-2024
+- Fix: Fixed SureCart settings import failed error.
+
+v1.1.9 - 24-October-2024
+- New: Added compatibility for the SureForms plugin.
+- Improvement: Enabled creation of SureCart provisional account when the eCommerce feature is selected with the SureCart option.
+
+v1.1.8 - 29-August-2024
+- New: Added image replacement compatibility for archive product banner image. 
+
+v1.1.7 - 28-August-2024
+- Improvement: Hardened the security of the plugin.
+
+v1.1.6 - 05-August-2024
+- Fix: Resolved an issue with some classic editor templates getting stuck during import.
+
+v1.1.5 - 05-August-2024
+- Fix: Default logo was not getting replaced for classic templates.
+
+v1.1.4 - 01-August-2024
+- Fix: Using option variables instead of transient.
+
+v1.1.3 - 18-July-2024
+- Fix: Resolved fatal error encountered with Ghost Kit plugin.
+
+v1.1.2 - 12-July-2024
+- Fix: Site footer was not getting imported.
+
+v1.1.1 - 28-June-2024
+- Improvement: Updated References to "astra-customizer-json" to Utilize JSON File Data.
+
+v1.1.0 - 25-June-2024
+- Fix: Resolved all PHPStan errors.
+
+v1.0.18 - 07-June-2024
+- Improvement: Using helper function of AI Builder to avoid duplications.
+
+v1.0.17 - 27-May-2024
+- New: Added filter & action to import classic templates options.
+
+v1.0.16 - 27-May-2024
+- Improvement: Added compatibility for ai buider functions.
+
+v1.0.15 - 24-May-2024
+- Fix: Replacing the images only for current imported posts and pages.
+
+v1.0.14 - 13-May-2024
+- Improvement: Added the updated date after import.
+
+v1.0.9 - 08-May-2024
+- Improvement: Added Source and Seed parameter while creating provisional account in Starter Templates for SureCart.
+
+v1.0.0
+- Initial Commit

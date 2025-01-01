@@ -1,0 +1,267 @@
+v1.2.18 - 02-December-2024
+- Improvement: Improved error handling by displaying actual server error messages in toaster
+
+v1.2.17 - 02-December-2024
+- Improvement: Handled displaying "Internal server error" in toaster.
+
+v1.2.16 - 28-November-2024
+- Fix: Fixed import process stuck issue.
+
+v1.2.15 - 28-November-2024
+- Improvement: Added import success action to trigger custom actions after successful site import.
+
+v1.2.14 - 19-November-2024
+- Improvement: Enhanced error handling in the import process with clearer error messages.
+- Improvement: Upgrade plan popup UI enhancements for a better user experience.
+
+v1.2.13 - 13-November-2024
+- Fix: Resolved an issue causing the import process to fail due to unexpected SureForm plugin redirection upon activation.
+
+v1.2.12 - 13-November-2024
+- Fix: This update addressed a security bug. Props to Patchstack for privately reporting it.
+
+v1.2.11 - 05-November-2024
+- Improvement: Hidding ecommerce templates if ecommerce feature is hidden.
+
+v1.2.10 - 31-October-2024
+- New: Added a filter to hide specified features on the selection screen.
+
+v1.2.9 - 24-October-2024
+- Improvement: Prompted users for detailed business descriptions to enhance content generation.
+- Improvement: Creating a SureCart merchant account when selected from the feature screen.
+- Improvement: Added compatibility for SureForms templates.
+
+v1.2.8 - 15-October-2024
+- Improvement: Corrected typos and applied minor CSS enhancements.
+
+v1.2.7 - 14-October-2024
+- New: Introduced a ZipWP upgrade promotional popup.
+- New: Implemented toasters to provide more detailed error information.
+- New: Added source parameters to URLs redirecting to ZipWP for better tracking.
+
+v1.2.6 - 20-September-2024
+- New: Added a filter to hide premium templates.
+- Improvement: Added a validation on Image upload to check if the image URL is valid.
+
+v1.2.5 - 13-September-2024
+- Fix: Console error for starter templates onboarding plugin.
+
+v1.2.4 - 13-September-2024
+- Improvement: Added sanitization for display site title value.
+
+v1.2.3 - 09-September-2024
+- New: Added functionality to save failed site creations and allow reimporting them.
+- New: Displaying users ZipWP plan information.
+- New: Displaying alert notice when AI site generation count is nearing its limit.
+- New: Added an option to choose the type of store when the Ecommerce feature is selected.
+- Improvement: Resume Session popup will now restore the step where the user left off.
+- Improvement: Improved images upload process for better performance and user experience.
+- Improvement: Showing Premium template notice on customizer screen if user has free plan.
+- Fix: Customizer 'Show site title' option was not applied correctly during site import.
+
+v1.2.2 - 30-August-2024
+- New: Added filter to update the default website language.
+
+v1.2.1 - 23-August-2024
+- Fix: Some strings were not translation ready.
+
+v1.2.0 - 07-August-2024
+- New: Enhanced AI onboarding UI.
+
+v1.1.22 - 05-August-2024
+- Fix: Required plugins for selected features were not installed for classic templates.
+
+v1.1.21 - 01-August-2024
+- Fix: Using option variables instead of transient.
+
+v1.1.20 - 31-July-2024
+- Fix: Removed All sites generation condition to show the site limit exceed popup.
+
+v1.1.19 - 30-July-2024
+- Improvement: Added support for passing a language parameter to the generate business description API, enabling descriptions to be generated in the selected language.
+
+v1.1.18 - 24-July-2024
+- Improvement: Implemented detailed error message handling based on API responses.
+
+v1.1.17 - 22-July-2024
+- Improvement: Added new icon for ecommerce feature.
+
+v1.1.16 - 19-July-2024
+- Fix: Template preview designs showing ternary operation result HTML.
+- Fix: Required plugins data was incorrect for the elementor templates screen. 
+
+v1.1.15 - 17-July-2024
+- Improvement: Using message code instead of response code to check some condition.
+
+v1.1.14 - 17-July-2024
+- Fix: Excluded features title and description from translation.
+
+v1.1.13 - 17-July-2024
+- Fix: Social icons title was not translation ready.
+
+v1.1.12 - 17-July-2024
+- Fix: Some strings were not translation ready.
+- Fix: Import Process Not Working on site language Change.
+
+v1.1.11 - 16-July-2024
+- Improvement: Added required changes for script strings translation.
+
+v1.1.10 - 12-July-2024
+- New: Added script translation with a filter to update the text domain for script translation.
+
+v1.1.9 - 11-July-2024
+- Improvement: Updated condition to show site limit exceed popup.
+
+v1.1.8 - 11-July-2024
+- Improvement: Displaying different site limit exceed popup for ST Onboarding plugin.
+- Fix: Premium badge was not showing for Premium templates.
+
+v1.1.7 - 08-July-2024
+- Fix: Business name is not getting reset after clicking on the start-over.
+- Fix: Resume Session popup appears after site creation.
+
+v1.1.5 - 05-July-2024
+- Fix: Business type was not getting prefilled if site created from ZipWP platform.
+
+v1.1.5 - 04-July-2024
+- Fix: Hover color for accent color converted to CSS variable.
+- Fix: Incorrect icon appearing for Contact Form feature.
+
+v1.1.4 - 03-July-2024
+- Fix: Resolved an issue preventing users from continuing to the next step if the business type input was entered manually.
+
+v1.1.3 - 02-July-2024
+- Fix: Reverted customizer data changes.
+
+v1.1.2 - 01-July-2024
+- Improvement: Added ZipWP new features icon support.
+
+v1.1.1 - 26-June-2024
+- Improvement: Enriching Website Building Onboarding with Advanced Font Presets.
+- Improvement: Added a filter to disable the Premium Badge for templates.
+- Fix: Compulsory features should enabled by default and should not be clickable.
+- Fix: Hover effect/color is missing on the Continue button.
+- Fix: Incorrect Input in Email Field.
+
+v1.1.0 - 24-June-2024
+- Fix: Resolved PHPStan errors.
+- Fix: Site creation limit exceeded popup was not showing.
+
+v1.0.49 - 19-June-2024
+- Fix: Showing irrelevant errors in logging for import failures.
+
+v1.0.48 - 18-June-2024
+- Improvement: Add tooltip for "sneak peek" message for better UX
+
+v1.0.47 - 17-June-2024
+- Improvement: Add tooltip for "sneak peek" message for better UX
+- Improvement: Ability to skip Features screen using a filter.
+
+v1.0.46 - 14-June-2024
+- Improvement: Updated the sidebar icons and connecting lines color.
+
+v1.0.45 - 14-June-2024
+- Chore: Included build files.
+
+v1.0.44 - 14-June-2024
+- Improvement: Updated the Sidebar steps text color.
+
+v1.0.43 - 12-June-2024
+- Improvement: Added new color variables to the TailwindCSS config.
+
+v1.0.42 - 11-June-2024
+- Fix: Resolved PHP 8.2 deprecated notice related to the creation of dynamic properties.
+
+v1.0.41 - 10-June-2024
+- Improvement: Error Boundary Screen in case of unexpected errors.
+- Improvement: Removed phone validations to match this phone format - Ex: +1 (888) SIXT-CAR (749-8227)
+- Fix: Better handling of console errors due to missing URLs in Image object from ZipWP images API.
+
+v1.0.40 - 07-June-2024
+- Fix: Fixed a console error in Gutenberg Templates library due to missing URLs for author and engine for placeholder images.
+
+v1.0.39 - 06-June-2024
+- Fix: Fixed an error when using the Spectra One theme and Starter Templates to import websites with ZipAI.
+
+v1.0.38 - 03-June-2024
+- Improvement: Added logging for import failures with a user alert for log details, warning that retries will exhaust AI site attempts.
+
+v1.0.37 - 04-June-2024
+- Improvement : Prefill websites based on the previous site creation.
+
+v1.0.36 - 03-June-2024
+- Fix: Resolved blog posts throwing 404 errors.
+
+v1.0.35 - 29-May-2024
+- Fix: The title for the `Description` step does not change for exceptional cases.
+
+v1.0.34 - 29-May-2024
+- Improvement: Pass `ecommerce` to the features array if ecommerce is enabled for the selected template.
+
+v1.0.33 - 29-May-2024
+- New: Premium template feature implemented.
+
+v1.0.32 - 28-May-2024
+- Fix: Inconsistent font sizes and line height
+
+v1.0.31 - 27-May-2024
+- Improvement: Added compatibility for classic templates sites options.
+
+v1.0.30 - 27-May-2024
+- Improvement: Sending template type parameter to set the flag.
+
+v1.0.29 - 23-May-2024
+- Improvement: Added a pre-installation confirmation modal.
+
+v1.0.27 - 23-May-2024
+- Improvement: Added filter to skip loading AI Builder library.
+
+v1.0.26 - 21-May-2024
+- Fix: Fixed fatal error while activating plugin on multisite.
+
+v1.0.25 - 17-May-2024
+- Fix: Show the user-entered contact details in the preview.
+
+v1.0.24 - 15-May-2024
+- Improvement: Added compatibility for WP-CLI import process.
+
+v1.0.23 - 13-May-2024
+- Fix: Fixed the PHP warning for function optional parameter.
+
+v1.0.22 - 10-May-2024
+- Improvement: Added filter for migration svg for onboarding plugin.
+
+v1.0.18 - 09-May-2024
+- Improvement: Added Light and Dark Color palettes.
+
+v1.0.17 - 09-May-2024
+- Improvement: Removed the width of the logo to make it compatible to Starter Templates Onboarding.
+
+v1.0.15 - 08-May-2024
+- Improvement: Set the source to 'starter-templates' on activation.
+
+v1.0.14 - 08-May-2024
+- Fix: The site import error when there are some required plugins.
+
+v1.0.13 - 07-May-2024
+- Fix: The site import process gets stuck.
+- Improvement: Updated the site building step slug.
+
+v1.0.10 - 06-May-2024
+- Fix: Fixed an incorrect type casting of a string on a popup for AI Builder.
+
+v1.0.9 - 06-May-2024
+- Improvement: Merged two steps into one.
+
+v1.0.7 - 02-May-2024
+- Fix: The upload logo is not working on the design preview screen.
+
+v1.0.5 - 02-May-2024
+- Improvement: Block sidebar Navigation.
+- UI Improvement: Font and Color palette selector UI of the Preview screen.
+
+v1.0.1 - 24-April-2024
+- Build files released
+
+v1.0.0 - 24-April-2024
+- Initial Release

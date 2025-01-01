@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".", // This makes the root directory of your project the base for relative paths
+		"paths": {
+			"@astra-hooks": [ "assets/hooks/index.js" ],
+			"@astra-hooks/*": [ "assets/hooks/*" ],
+			"@astra-components": [ "assets/components/index.js" ],
+			"@astra-components/*": [ "assets/components/*" ],
+			"@astra-utils/*": [ "assets/utils/*" ],
+			"@DashboardApp/*": [ "assets/src/dashboard-app/*" ],
+			"@Admin/*": [ "assets/src/*" ],
+			"@Utils/*": [ "assets/src/utils/*" ],
+			"@Skeleton/*": [ "assets/src/common/skeleton/*" ],
+			"@Common/*": [ "assets/src/common/*" ]
+		}
+	}
+}
